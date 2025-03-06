@@ -40,7 +40,7 @@ jobs:
       - name: 2.克隆源码与补丁
         run: |
           cd $GITHUB_WORKSPACE/kernel_workspace
-          git clone https://github.com/xxxg-en/kernel_xiaomi_sm8250_mod.git --depth=1 android_kernel
+          git clone https://github.com/liyafe1997/kernel_xiaomi_sm8250_mod.git --depth=1 android_kernel
           git clone https://github.com/xxxg-en/AUTO_BUILD.git src
           git clone https://gitlab.com/simonpunk/susfs4ksu.git -b kernel-4.19 --depth=1 susfs
 
